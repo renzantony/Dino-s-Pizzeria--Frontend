@@ -8,7 +8,7 @@ if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "
 } else {
     // baseURL = "https://backend-dq-dairyqueen-jithin.herokuapp.com/";
     // baseURL="https://backend-sd-alisha.herokuapp.com/";
-    baseURL= "http://127.0.0.1:8000"
+    baseURL= "https://Pizzeria-backend.rennyantony.repl.co"
 }
 
 const api = axios.create({
